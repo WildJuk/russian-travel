@@ -1,26 +1,34 @@
 .header {
   padding: 0;
   margin: 0 auto;
-  max-width: 1184px;
+  max-width: calc(100% - 96px);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 28px;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (max-width: 1280px) {
   .header {
-    max-width: 928px;
+    /* убрать медиазапрос, для теста */
+    max-width: calc(100% - 95px);
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .header {
-    max-width: 720px;
+    max-width: calc(100% - 48px);
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
     max-width: calc(100% - 32px);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    padding-top: 16px;
   }
 }
