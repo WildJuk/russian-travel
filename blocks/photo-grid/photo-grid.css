@@ -1,24 +1,29 @@
-.intro {
+.photo-grid {
   margin: 0 auto;
   padding: 0;
-  max-width: 984px;
-  width: 100%;
+  max-width: 1184px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  gap: 16px;
 }
 
 @media screen and (max-width: 1279.19px) {
-  .intro {
+  .photo-grid {
     max-width: calc(100% - 96px);
+    gap: 14px;
   }
 }
 
 @media screen and (max-width: 1023.19px) {
-  .intro {
+  .photo-grid {
     max-width: calc(100% - 48px);
+    gap: 16px;
   }
 }
 
 @media screen and (max-width: 767.19px) {
-  .intro {
+  .photo-grid {
     max-width: calc(100% - 32px);
+    gap: 12px;
   }
 }
