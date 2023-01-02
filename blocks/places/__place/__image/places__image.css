@@ -5,7 +5,7 @@
   object-fit: cover;
 }
 
-@media screen and (max-width: 767.19px) {
+@media screen and (max-width: 767px) {
   .places__image {
     position: relative;
     max-width: calc(100% + 32px);
