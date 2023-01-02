@@ -3,7 +3,7 @@
   padding: 0;
   font-weight: 900;
   font-size: 54px;
-  line-height: 58px;
+  line-height: 1.07;
   max-width: 690px;
 }
 
@@ -16,7 +16,7 @@
 @media screen and (max-width: 767.19px) {
   .intro__title {
     font-size: 32px;
-    line-height: 35px;
+    line-height: 1.09;
     max-width: calc(100% - 32px);
   }
 }

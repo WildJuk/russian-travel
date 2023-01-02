@@ -16,6 +16,8 @@
 
 .cover__link-content::before {
   position: absolute;
+  left: 0;
+  top: 0;
   content: '';
   width: 100%;
   height: 100%;
