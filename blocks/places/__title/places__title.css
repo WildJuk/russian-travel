@@ -16,5 +16,6 @@
 @media screen and (max-width: 767px) {
   .places__title {
     font-size: 32px;
+    margin: 0 16px;
   }
 }

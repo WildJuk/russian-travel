@@ -22,6 +22,7 @@
   .places__place {
     grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
     column-gap: 28px;
+    margin: 73px 0 0;
   }
 }
 
@@ -30,5 +31,6 @@
     justify-content: center;
     grid-template-columns: minmax(min-content, 425px);
     row-gap: 32px;
+    margin: 50px 0 0;
   }
 }
