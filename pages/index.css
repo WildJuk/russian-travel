@@ -30,6 +30,7 @@
 
 /* photo-grid block styles */
 @import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/photo-grid/__list/photo-grid__list.css');
 @import url('../blocks/photo-grid/__item/photo-grid__item.css');
 
 /* places block styles */
@@ -50,6 +51,7 @@
 
 /* footer styles */
 @import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__navigation/footer__navigation.css');
 @import url('../blocks/footer/__links/footer__links.css');
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
